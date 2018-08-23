@@ -112,6 +112,7 @@ IMPLEMENT_DYNAMIC(CMainFrame, CFrameWnd)
 		return CFrameWnd::OnCmdMsg(nID, nCode, pExtra, pHandlerInfo);
 	}
 
+	//按钮响应事件,进行转换并保存二进制文件
 	void CMainFrame::On32771()
 	{
 		// TODO: 在此添加命令处理程序代码
